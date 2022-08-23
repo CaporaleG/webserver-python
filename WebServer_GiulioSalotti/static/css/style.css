@@ -1,0 +1,104 @@
+.top-menu{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    float: none;
+
+}
+
+.logocenter{
+    float: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.top-navr{
+    float: right;
+    font-family: 'Amatic SC', cursive;
+    color: aliceblue;
+    font-size: 30px;
+}
+
+.login-botton{
+    font-size: 25px;
+}
+
+.login-l{
+    float: right;
+}
+
+.head-banner{
+    background-color: rgb(255, 25, 0);
+    padding-top: 8rem;
+    padding: 8rem;
+    background-image: url(/static/img/banner2.jpg);
+    background-size: cover;
+    
+    
+}
+
+.head-service{
+    background-color: rgb(255, 25, 0);
+    padding-top: 20rem;
+    padding: 8rem;
+    background-image: url(/static/img/newyork.jpg);
+    background-size: cover;
+    height: 1000px;
+    
+}
+
+.scritta{
+    font-family: 'Amatic SC', cursive;
+    font-size: 30px;
+    
+}
+
+.icon-section{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    font-family: 'Amatic SC', cursive;
+}
+
+@media screen and (min-width:768px){
+    .head-banner{
+        padding-top: 12rem;
+        padding-bottom: 12rem;
+    }
+}
+
+.footer{
+    font-family: 'Amatic SC', cursive;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.carte{
+    font-family: 'Amatic SC', cursive;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.title-icon{
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+}
+
+.pacchetti{
+    
+    font-family: 'Amatic SC', cursive;
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+
+}
+
+.head-travel{
+    background-color: rgb(255, 25, 0);
+    padding-top: 8rem;
+    padding: 8rem;
+    background-image: url(/static/img/assicurazione-viaggio.webp);
+    background-size: cover;
+
+}
